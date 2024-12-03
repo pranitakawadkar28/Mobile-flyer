@@ -1,0 +1,234 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #D3DBDE;
+}
+
+.main > .box {
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box > .nav {
+    width: 95%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav > h1 {
+    font-size: 25px;
+}
+
+.nav > a {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+#a1 {
+    margin-left: 20%;
+}
+
+#i1 {
+    margin-left: 10%;
+}
+
+.nav > .profile {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background-image: url(https://plus.unsplash.com/premium_photo-1671656349218-5218444643d8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+
+.box > .main-content {
+    width: 95%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.main-content > .a {
+    width: 32.9%;
+    height: 100%;
+}
+
+.a > h6 {
+    margin-top: 10%;
+    color: blue;
+    margin-bottom: 15px;
+}
+
+.a > h1 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+.a > h4 {
+    padding-top: 5px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.btn {
+    width: 80%;
+    height: 9%;
+    border-radius: 30px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.btn > button {
+    border: none;
+    border-radius: 25px;
+    padding: 15px 20px;
+    color: white;
+    background-color: black;
+}
+
+.btn > p {
+    font-size: 12px;
+}
+
+.a > h5 {
+    margin-top: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.a > .photo {
+    width: 70%;
+    height: 18%;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.a > img {
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+.a > h2{
+    font-size: 50px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.a > p {
+    text-align: center;
+    font-size: 12px;
+}
+
+.a > .boxa {
+    width: 80%;
+    height: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+    background-color: #D3DBDE;
+    border-radius: 130px 130px 0px 0px;
+    background-image: url(https://images.unsplash.com/photo-1567199955211-2648518a7730?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.429);
+}
+
+.a > .dp {
+    width: 13%;
+    height: 8%;
+   overflow: hidden;
+    position: absolute;
+    top: 35%;
+    right: 32%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.344), -2px -2px 2px rgba(128, 128, 128, 0.344);
+} 
+
+.dp > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.a > .bp {
+    width: 13%;
+    height: 8%;
+   overflow: hidden;
+    position: absolute;
+    top: 55%;
+    left: 32%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.344), -2px -2px 2px rgba(128, 128, 128, 0.344);
+} 
+
+.bp > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.photo > .b {
+    width: 31%;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.344), -2px -2px 2px rgba(128, 128, 128, 0.344);
+}
+
+#p1 {
+    background-color: rgb(2, 2, 51);
+}
+
+.b > i {
+    font-size: 30px;
+    color: white;
+}
+
+.b > p {
+    padding-top: 10px;
+    font-size: 10px;
+    color: gray;
+}
+
+.b > img{
+    width: 60%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 5px;
+}
